@@ -15,3 +15,14 @@
   ansible -i inventory local -m ping
 
 ansible-playbook -i inventory playbook.yml
+
+
+exp4
+add id java
+jar{
+    manifest{
+        attributes(
+                'Main-Class':'org.example.Main'
+        )
+    }
+}
