@@ -16,7 +16,7 @@
 
 ansible-playbook -i inventory playbook.yml
 
-
+-------------------------------------------------------------------
 exp4
 add id java
 jar{
@@ -26,3 +26,22 @@ jar{
         )
     }
 }
+-----------------------------------------------------------------------------
+dependencies
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <scope>test</scope>
+</dependency>
+--------------------------------------------------------------------------------------------------
+exp3 kotlin
+fun main(args: Array<String>){
+    println("hellooo")
+    println("hiiiiiiiii")
+}
+----------------------------------------------------------------------------
+
+exp 6
+java -cp  .\target\Program2-1.0-SNAPSHOT.jar org.example.p2
